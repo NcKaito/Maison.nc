@@ -1,0 +1,43 @@
+body{
+    background: url(cv.jpeg) fixed no-repeat top center;
+    background-color: black;
+    color: white;
+
+}
+
+h1{
+    text-align: center;
+    text-shadow: 2px 2px 4px rgb(62, 255, 3);
+}
+
+a{
+    text-decoration: none;
+    color: rgb(17, 0, 255);
+    font-style: italic;
+   
+}
+
+a:hover{
+    color: rgb(1, 92, 1);
+    text-decoration: underline;
+}
+
+#surligne{
+    background-color: rgb(0, 26, 255);
+}
+
+legend{
+    text-shadow: 2px 2px 4px rgb(60, 253, 1);
+}
+
+fieldset {
+    background-color: rgba(5, 9, 255, 0.521);
+    width: 40%;
+    text-align: left;
+    margin-left: 30%;
+}
+
+textarea{
+    width: 70%;
+    height:auto;
+}
