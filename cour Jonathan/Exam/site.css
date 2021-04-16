@@ -1,0 +1,96 @@
+header{
+  background-image: url(./SF/storefront/media/plates-header.jpg);
+    background-size: cover;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  nav {
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+      font-family: Arial, Helvetica, sans-serif;
+      font-weight: bold;
+      font-size: 12px;
+      background-color: white;
+    }
+  
+  nav ul {
+    list-style: none;
+    padding-top: 15px;
+  }
+
+  span.cart{
+    padding-top: 15px;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    padding-left: 20px;
+  }
+  
+  header div{
+    width: 50%;
+    margin: auto;
+    background-color: #393935;
+    color: white;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-left: solid white 5px;
+    border-right: solid white 5px;
+  }
+  
+  header div h1{
+    margin-top: 70px;
+    margin-bottom: 10px;
+    height: 50px;
+    border-bottom:solid gray 2px ;
+  }
+  
+  header div p {
+    margin-top: 0;
+    width: 90%;
+  }
+  
+  section {
+    display: grid;
+    grid-template-columns: 200px 200px 200px;
+    grid-column-gap: 20px;
+    margin: auto;
+    width: 640px;
+  }
+  
+  section article{
+    width: 200px;
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  section article img {
+    max-width: 100%;
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+  }
+  
+  .model{
+    font-weight: bold;
+  }
+
+  img:hover {
+    opacity: 0.4; 
+   
+  }
+/*produit detail*/
+
+#header p{
+  margin-top: 40px;
+  text-align: center;
+}
+
+#header span{
+  color: rgba(128, 128, 128, 0.589);
+}
